@@ -13,11 +13,6 @@ A Model Context Protocol (MCP) server that enables LLMs to interact directly wit
 - 📈 Index management
 - 📝 Document operations (insert, update, delete)
 
-## Demo Video
-
-
-https://github.com/user-attachments/assets/2389bf23-a10d-49f9-bca9-2b39a1ebe654
-
 
 
 
@@ -40,14 +35,6 @@ To get started, find your mongodb connection url and add this configuration to y
     }
   }
 }
-```
-
-### Installing via Smithery
-
-To install MongoDB MCP Server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/mongo-mcp):
-
-```bash
-npx -y @smithery/cli install mongo-mcp --client claude
 ```
 
 ### Prerequisites
@@ -174,6 +161,9 @@ The server provides these tools for database interaction:
 - `createIndex`: Create a new index
 - `dropIndex`: Remove an index
 - `indexes`: List indexes for a collection
+
+### CertifiedBy:-
+- `MCP Reviews`: https://mcpreview.com/mcp-servers/nickiiitu/MongoDB-Model-Context-Protocol-MCP-
 
 ## 📜 License
 
